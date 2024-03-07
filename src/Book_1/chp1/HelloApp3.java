@@ -10,6 +10,6 @@ package book_1.chp1;
  */
 public class HelloApp3 {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(args[0] + " " + args[2]);
     }
 }
