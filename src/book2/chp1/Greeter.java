@@ -10,4 +10,7 @@ package book2.chp1;
  */
 public class Greeter {
     
+    public void sayHello() {
+        System.out.println("Hello, World!");
+    }
 }
