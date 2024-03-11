@@ -23,7 +23,7 @@ import javax.swing.JOptionPane; //used so that you don't have to Fully Qualify t
 public class Greeter {
     
     public void sayHello() {
-       /* System.out.println("Hello, World!"); //prints in console.*/
+//       System.out.println("Hello World!"); //prints in console.
        
        /* Makes a Dialog box pop up with greeting */
         JOptionPane.showMessageDialog(null, 
