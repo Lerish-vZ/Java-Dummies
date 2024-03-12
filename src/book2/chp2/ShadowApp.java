@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package book2.chp2; //LISTING 2-2
+package book2.chp2; 
 /* A shadowed variable is a variable that would otherwise be accessible but is temporarily 
 made unavailable because a variable with the same name has been declared in a more immediate
 scope. 
@@ -11,6 +11,8 @@ scope.
  *
  * @author lerishav
  */
+//                  LISTING 2-2
+
 public class ShadowApp {
 
     /**
