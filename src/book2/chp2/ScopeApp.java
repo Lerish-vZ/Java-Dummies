@@ -2,12 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package book2.chp2; //LISTING 2.1
+package book2.chp2; 
 
 /**
  *
  * @author lerishav
  */
+
+//                      LISTING 2.1
 public class ScopeApp {
 
     /**
