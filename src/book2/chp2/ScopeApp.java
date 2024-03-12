@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package book2.chp2;
+package book2.chp2; //LISTING 2.1
 
 /**
  *
@@ -35,3 +35,5 @@ public class ScopeApp {
     }
     
 }
+/*Strictly speaking, the scope of a local variable begins when the variable is initialized
+and ends when the block that contains the variable’s declaration ends */
