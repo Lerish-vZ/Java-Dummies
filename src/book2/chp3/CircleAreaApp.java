@@ -4,17 +4,23 @@
  */
 package book2.chp3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lerishav
  */
 public class CircleAreaApp {
-
+    static Scanner sc= new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Welcome to the circle area calculator.");
+        System.out.print("Enter the radius of your circle: ");
+        double r = sc.nextDouble();
+        double area = Math.PI * (r * r);
+        System.out.println("The are is " + area);
     }
     
 }
