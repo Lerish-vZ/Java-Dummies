@@ -20,8 +20,12 @@ public class DiceApp {
         String msg = "Here are 100 random rolls of the dice:";
         
         for ( int i = 0; i < 100; i++){
-            
+            roll = randomInt(1, 6);
+            System.out.print(roll + " ");
         }
+        System.out.println();
     }
+    
+    
     
 }
