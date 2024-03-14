@@ -20,7 +20,7 @@ public class CircleAreaApp {
         System.out.print("Enter the radius of your circle: ");
         double r = sc.nextDouble();
         double area = Math.PI * (r * r);
-        System.out.println("The are is " + area);
+        System.out.println("The area is " + area);
     }
     
 }
