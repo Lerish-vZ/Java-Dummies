@@ -8,6 +8,7 @@ package book2.chp3;
  *
  * @author lerishav
  */
+//                      LISTING 3-6
 public class NumberFormatClassApp {
 
     /**
