@@ -8,6 +8,8 @@ package book2.chp3;
  *
  * @author lerishav
  */
+
+//               LISTING 3-4
 public class DiceApp {
 
     /**
