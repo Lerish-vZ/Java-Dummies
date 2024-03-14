@@ -16,7 +16,10 @@ public class DiceApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int roll; 
+        String msg = "Here are 100 random rolls of the dice:";
+        
+        
     }
     
 }
