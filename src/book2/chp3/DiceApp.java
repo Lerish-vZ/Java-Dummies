@@ -19,7 +19,9 @@ public class DiceApp {
         int roll; 
         String msg = "Here are 100 random rolls of the dice:";
         
-        
+        for ( int i = 0; i < 100; i++){
+            
+        }
     }
     
 }
