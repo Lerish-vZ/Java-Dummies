@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /*
 Unary Operators: Operators that work on just one operand. 
-Binary Operators: Operators that work on just one operand.
+Binary Operators: Operators that work on two operands.
 Ternary Operators: Operators that work on three operands. (Java has only one of these and it is the conditional operator.)
 */
 
