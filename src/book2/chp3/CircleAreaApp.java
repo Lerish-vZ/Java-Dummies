@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 //              LISTING 3-2
 public class CircleAreaApp {
-    static Scanner sc= new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
