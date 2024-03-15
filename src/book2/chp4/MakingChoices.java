@@ -33,11 +33,11 @@ public class MakingChoices {
         System.out.print("Please enter the amount of apple/s you have: ");
         x = sc.nextInt();
         
-        String msg = "You have " + x + " apple" + ((x > 1 ? "s" : "."));
+        String msg = "You have " + x + " apple" + ((x > 1 ? "s." : "."));
         System.out.println(msg);
         
         String ans = "Yes";
-        if ("Yes".equals(ans)){
+        if (ans.equals("yes")){
             System.out.println("The answer is " + ans + ".");
         } else {
             System.out.println("Incorrect." + ans);
