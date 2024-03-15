@@ -4,6 +4,8 @@
  */
 package book2.chp4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lerishav
@@ -22,12 +24,20 @@ SIMPLE IF STATEMENT:
         statement
 */
 public class MakingChoices {
-
+    static Scanner sc = new Scanner (System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+       int x; 
+        System.out.print("Please enter the amount of apple/s you have: ");
+        x = sc.nextInt();
+        
+        String msg = "You have " + x + " apple" + ((x > 1 ? "s" : "."));
+        System.out.println(msg);
+        
+        String ans = "Yes";
+        
     }
     
 }
