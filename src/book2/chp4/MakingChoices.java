@@ -39,10 +39,14 @@ public class MakingChoices {
         String ans = "Yes";
         if ("Yes".equals(ans)){
             System.out.println("The answer is " + ans + ".");
+        } else {
+            System.out.println("Incorrect." + ans);
         }
         
         if(ans.equalsIgnoreCase("YES")){
             System.out.println("The answer is Yes.");
+        } else {
+            System.out.println("Incorrect." + ans);
         }
     }
     
