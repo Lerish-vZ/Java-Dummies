@@ -60,7 +60,7 @@ public class GuessingGame {
                 }
             } while (!validInput);
         }
-        System.out.println("\nThank yu for playing!");
+        System.out.println("\nThank you for playing!");
             
         }
             
