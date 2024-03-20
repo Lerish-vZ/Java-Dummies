@@ -47,8 +47,6 @@ public class GuessingGame {
                     System.out.println("You're wrong! The number was " + number + ".");
                 }
             
-            }
-            
             do {
                 System.out.print("\nPlay again? (Y or N)");
                 answer = sc.next();
@@ -63,7 +61,9 @@ public class GuessingGame {
             } while (!validInput);
         }
         System.out.println("\nThank yu for playing!");
+            
+        }
+            
+            
                 
     }
-    
-}
