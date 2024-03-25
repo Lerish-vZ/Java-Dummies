@@ -47,6 +47,7 @@ public class VoterApp2 {
                 msg = "Voter filled out ballot correctly. \nBallot discarded anyway.";
                 break;
         }
+        System.out.println(msg);
     }
     
 }
