@@ -43,6 +43,9 @@ public class VoterApp2 {
                 msg = "Voter drooled in voring machine. \nBegining spin cycle.";
             case 7:
                 msg = "Voter lied to pollster after voting. \nVoter's ballot changed to match polling data.";    
+            default: 
+                msg = "Voter filled out ballot correctly. \nBallot discarded anyway.";
+                break;
         }
     }
     
