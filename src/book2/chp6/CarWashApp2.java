@@ -55,6 +55,24 @@ public class CarWashApp2 {
         System.out.println(details);
     }
     
+    public static String packageA(){
+        return "\tWash, vacuum and hand dry. \n ";
+    } 
     
+    public static String packageB(){
+        return "\tWax, plus... \n ";
+    } 
+    
+    public static String packageC(){
+        return "\tLeather/Vinyl Treatment, plus... \n";
+    } 
+    
+    public static String packageD(){
+        return "\tTire Treatment, plus... \n";
+    } 
+    
+    public static String packageE(){
+        return "\tNew Car Scent, plus... \n";
+    } 
     
 }
