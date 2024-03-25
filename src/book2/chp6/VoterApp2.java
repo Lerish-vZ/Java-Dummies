@@ -29,7 +29,8 @@ public class VoterApp2 {
         String msg;
         
         switch(err) {
-            
+            case 1:
+                msg = "Voter marked more than one candidate. \nBallot rejected.";
         }
     }
     
