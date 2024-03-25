@@ -4,6 +4,8 @@
  */
 package book2.chp6;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lerishav
@@ -13,6 +15,9 @@ public class CarWashApp {
     /**
      * @param args the command line arguments
      */
+    
+    static Scanner sc = new Scanner(System.in);
+    
     public static void main(String[] args) {
         // TODO code application logic here
     }
