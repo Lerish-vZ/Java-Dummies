@@ -29,19 +29,23 @@ public class CarWashApp2 {
         switch (p){
             case 'E':
             case 'e':
-                details += "\tNew Car Scent, plus...\n";
+                details = packageE() + packageD() + packageC + packageB() + packageA();
+                break;
             case 'D':
             case 'd':
-                details += "\tTire Treatment, plus...\n";
+                details = packageD() + packageC + packageB() + packageA();
+                break;
             case 'C':
             case 'c':
-                details += "\tLeather/Vinyl Treatment, plus...\n";
+                details = packageC + packageB() + packageA();
+                break;
             case 'B':
             case 'b':
-                details += "\tWax, plus...\n";
+                details = packageB() + packageA();
+                break;
             case 'A':
             case 'a':
-                details += "\tWash, vacuum, and hand dry.\n";
+                details = packageA();
                 break;
             default:
                 details = "That's not one of the codes.";
@@ -50,5 +54,7 @@ public class CarWashApp2 {
         System.out.println("\nThat package includes: \n");
         System.out.println(details);
     }
+    
+    
     
 }
