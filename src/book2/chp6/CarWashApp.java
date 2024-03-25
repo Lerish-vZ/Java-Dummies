@@ -19,7 +19,14 @@ public class CarWashApp {
     static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("The car wash application!!\n\n");
+        System.out.print("Enter the package code: ");
+        
+        String s = sc.next();
+        char p = s.charAt(0);
+        
+        String details = "";
+        
     }
     
 }
