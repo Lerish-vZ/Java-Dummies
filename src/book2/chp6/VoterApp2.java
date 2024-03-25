@@ -32,11 +32,11 @@ public class VoterApp2 {
             case 1:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
             case 2:
-                msg = "Voter marked more than one candidate. \nBallot rejected.";
+                msg = "Box checked and write-in candidate entered. \nBallot rejected.";
             case 3:
-                msg = "Voter marked more than one candidate. \nBallot rejected.";
+                msg = "Entire ballot was blank. \nBallot filled in according to secret plan.";
             case 4:
-                msg = "Voter marked more than one candidate. \nBallot rejected.";
+                msg = "Nothing unusual about the ballot. \nVoter randomly selected for tax audit.";
             case 5:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
             case 6:
