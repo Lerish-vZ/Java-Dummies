@@ -23,6 +23,12 @@ public class VoterApp2 {
                             "If your voting machine generates an error code, \n" +
                             "you can use this program to determine the exact \ncause of the error. \n");
         System.out.print("Enter the error code: ");
+        
+        int err = sc.nextInt();
+        
+        String msg;
+        
+        
     }
     
 }
