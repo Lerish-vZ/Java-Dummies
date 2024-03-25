@@ -31,17 +31,17 @@ public class VoterApp2 {
         switch(err) {
             case 1:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
-            case 1:
+            case 2:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
-            case 1:
+            case 3:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
-            case 1:
+            case 4:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
-            case 1:
+            case 5:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
-            case 1:
+            case 6:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
-            case 1:
+            case 7:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";    
         }
     }
