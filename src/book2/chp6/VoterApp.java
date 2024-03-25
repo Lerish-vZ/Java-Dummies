@@ -44,7 +44,7 @@ public class VoterApp {
             msg = "Voter lied to pollster after voting. \nVoter's ballot changed to match polling data.";
         else 
             msg = "Voter filled out ballot correctly. \nBallot discarded anyway.";
-        System.out.println("msg");
+        System.out.println(msg);
     }
     
 }
