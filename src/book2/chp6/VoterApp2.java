@@ -38,11 +38,11 @@ public class VoterApp2 {
             case 4:
                 msg = "Nothing unusual about the ballot. \nVoter randomly selected for tax audit.";
             case 5:
-                msg = "Voter marked more than one candidate. \nBallot rejected.";
+                msg = "Voter filled in every box. \nBallot counted twice.";
             case 6:
-                msg = "Voter marked more than one candidate. \nBallot rejected.";
+                msg = "Voter drooled in voring machine. \nBegining spin cycle.";
             case 7:
-                msg = "Voter marked more than one candidate. \nBallot rejected.";    
+                msg = "Voter lied to pollster after voting. \nVoter's ballot changed to match polling data.";    
         }
     }
     
