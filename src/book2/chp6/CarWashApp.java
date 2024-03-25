@@ -10,6 +10,7 @@ import java.util.Scanner;
  *
  * @author lerishav
  */
+//omitting the break; statement on purpose.
 public class CarWashApp {
 
     /**
@@ -26,6 +27,28 @@ public class CarWashApp {
         char p = s.charAt(0);
         
         String details = "";
+        
+        switch (p){
+            case 'E':
+            case 'e':
+                details += "\tNew Car Scent, plus...\n";
+            case 'D':
+            case 'd':
+                details += "\tTire Treatment, plus...\n";
+            case 'C':
+            case 'c':
+                details += "\tLeather/Vinyl Treatment, plus...\n";
+            case 'B':
+            case 'b':
+                details += "\tWax, plus...\n";
+            case 'A':
+            case 'a':
+                details += "\tWash, vacuum, and hand dry.\n";
+                break;
+            default:
+                details = "That's not one of the codes.";
+                break;
+        }
         
     }
     
