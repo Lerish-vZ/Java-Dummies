@@ -28,7 +28,9 @@ public class VoterApp2 {
         
         String msg;
         
-        
+        switch(err) {
+            
+        }
     }
     
 }
