@@ -29,15 +29,15 @@ public class CarWashApp2 {
         switch (p){
             case 'E':
             case 'e':
-                details = packageE() + packageD() + packageC + packageB() + packageA();
+                details = packageE() + packageD() + packageC() + packageB() + packageA();
                 break;
             case 'D':
             case 'd':
-                details = packageD() + packageC + packageB() + packageA();
+                details = packageD() + packageC() + packageB() + packageA();
                 break;
             case 'C':
             case 'c':
-                details = packageC + packageB() + packageA();
+                details = packageC() + packageB() + packageA();
                 break;
             case 'B':
             case 'b':
