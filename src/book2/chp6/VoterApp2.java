@@ -31,18 +31,25 @@ public class VoterApp2 {
         switch(err) {
             case 1:
                 msg = "Voter marked more than one candidate. \nBallot rejected.";
+                break;
             case 2:
                 msg = "Box checked and write-in candidate entered. \nBallot rejected.";
+                break;
             case 3:
                 msg = "Entire ballot was blank. \nBallot filled in according to secret plan.";
+                break;
             case 4:
                 msg = "Nothing unusual about the ballot. \nVoter randomly selected for tax audit.";
+                break;
             case 5:
                 msg = "Voter filled in every box. \nBallot counted twice.";
+                break;
             case 6:
                 msg = "Voter drooled in voring machine. \nBegining spin cycle.";
+                break;
             case 7:
                 msg = "Voter lied to pollster after voting. \nVoter's ballot changed to match polling data.";    
+                break;
             default: 
                 msg = "Voter filled out ballot correctly. \nBallot discarded anyway.";
                 break;
