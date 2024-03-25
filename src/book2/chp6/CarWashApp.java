@@ -49,7 +49,8 @@ public class CarWashApp {
                 details = "That's not one of the codes.";
                 break;
         }
-        
+        System.out.println("\nThat package includes: \n");
+        System.out.println(details);
     }
     
 }
