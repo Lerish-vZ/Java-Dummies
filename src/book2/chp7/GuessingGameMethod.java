@@ -40,7 +40,7 @@ public class GuessingGameMethod {
         System.out.println("\nI'm thinking of a number between 1 and 10.");
         
         //Get the guess 
-        System.out.print("What do you think it is?");
+        System.out.print("What do you think it is? ");
         
         do{
             guess = sc.nextInt();
