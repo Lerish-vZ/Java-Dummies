@@ -22,23 +22,23 @@ public class GuessingGameMethod3 {
         System.out.println("Let's play a guessing game!");
         
         do {
-            playARound();
-        } while(askForAnotherRound());
+            playARound(1, getRandomNumber(7, 12));
+        } while(askForAnotherRound("Try again?"));
         System.out.println("\nThank you for playing!");
     }
     
-    public static void playARound(){
+    public static void playARound(int min, int max){
         boolean validInput;
         int number, guess;
         String answer;
         
         //Pick a random number 
-        number = getRandomNumber();
+        number = getRandomNumber(min, max);
         
         //Get the guess
-        System.out.println("\nI'm thinking of a number between 1 and 10.");
+        System.out.println("\nI'm thinking of a number between " + min + " and " + max + ".");
         System.out.print("What do you think it is? ");
-        guess = getGuess();
+        guess = getGuess(min, max);
         
         //Check the guess
         if(guess == number) 
@@ -47,12 +47,12 @@ public class GuessingGameMethod3 {
             System.out.println("You're wrong! The number was " + number);
     }
     
-    public static int getRandomNumber(){
-        return (int)(Math.random() * 10) + 1;
+    public static int getRandomNumber(int min, int max){
+        return (int)(Math.random() * (max - min + 1)) + min;
     }
     
     public static int getGuess(){
-        while(true){ //only exits if the user enters an number between 1 and 10
+        while(true){ 
             int guess = sc.nextInt();
             if((guess < 1) || (guess > 10)){
                 System.out.print("I said, between 1 and 10. Try again: ");
