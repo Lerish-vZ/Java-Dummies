@@ -4,6 +4,8 @@
  */
 package book2.chp7;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lerishav
@@ -13,8 +15,36 @@ public class GuessingGameMethod2 {
     /**
      * @param args the command line arguments
      */
+    
+    static Scanner sc = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Let's play a guessing game!");
+        
+        do {
+            playARound();
+        } while(askForAnotherRound());
+        System.out.println("\nThank you for playing!");
+    }
+    
+    public static void playARound(){
+        boolean validInput;
+        int number, guess;
+        String answer;
+        
+        //Pick a random number 
+        number = getRandomNumber();
+        
+        //Get the guess
+        System.out.println("\nI'm thinking of a number between 1 and 10.");
+        System.out.print("What do you think it is?");
+        guess = getGuess();
+        
+        //Check the guess
+        if(guess == number) 
+            System.out.println("You're right!");
+        else
+            System.out.println("You're wrong! The number was " + number);
     }
     
 }
