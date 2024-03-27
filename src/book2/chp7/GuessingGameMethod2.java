@@ -52,7 +52,7 @@ public class GuessingGameMethod2 {
     }
     
     public static int getGuess(){
-        while(true){
+        while(true){ //only exits if the user enters an number between 1 and 10
             int guess = sc.nextInt();
             if((guess < 1) || (guess > 10)){
                 System.out.print("I said, between 1 and 10. Try again: ");
