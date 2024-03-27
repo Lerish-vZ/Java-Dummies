@@ -37,7 +37,7 @@ public class GuessingGameMethod2 {
         
         //Get the guess
         System.out.println("\nI'm thinking of a number between 1 and 10.");
-        System.out.print("What do you think it is?");
+        System.out.print("What do you think it is? ");
         guess = getGuess();
         
         //Check the guess
