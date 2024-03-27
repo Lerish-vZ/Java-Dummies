@@ -47,4 +47,33 @@ public class GuessingGameMethod2 {
             System.out.println("You're wrong! The number was " + number);
     }
     
+    public static int getRandomNumber(){
+        return (int)(Math.random() * 10) + 1;
+    }
+    
+    public static int getGuess(){
+        while(true){
+            int guess = sc.nextInt();
+            if((guess < 1) || (guess > 10)){
+                System.out.print("I said, between 1 and 10. Try again: ");
+            }
+            else 
+                return guess;
+        }
+    }
+    
+    public static boolean askForAnotherRound(){
+        while(true){
+            String answer; 
+            System.out.print("\nPlay again? (Y or N) ");
+            answer = sc.next();
+            
+            if(answer.equalsIgnoreCase("Y"))
+                
+                return true;
+            else if (answer.equalsIgnoreCase("N"))
+                return false;
+        }
+    }
+    
 }
