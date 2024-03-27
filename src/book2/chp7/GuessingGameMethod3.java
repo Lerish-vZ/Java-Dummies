@@ -51,11 +51,11 @@ public class GuessingGameMethod3 {
         return (int)(Math.random() * (max - min + 1)) + min;
     }
     
-    public static int getGuess(){
+    public static int getGuess(int min, int max){
         while(true){ 
             int guess = sc.nextInt();
-            if((guess < 1) || (guess > 10)){
-                System.out.print("I said, between 1 and 10. Try again: ");
+            if((guess < min) || (guess > max)){
+                System.out.print("I said, between " + min + " and " + max + ". Try again: ");
             }
             else 
                 return guess;
