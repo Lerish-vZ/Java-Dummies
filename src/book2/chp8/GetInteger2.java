@@ -25,7 +25,7 @@ public class GetInteger2 {
     
     public static int GetAnInteger(){
         while(!sc.hasNextInt()){
-            sc.nextLine();
+            sc.nextLine(); //Checks if the next value is an integer.
             System.out.print("That's not an integer. Try again: ");
         }
         return sc.nextInt();
