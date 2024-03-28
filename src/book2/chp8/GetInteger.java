@@ -47,7 +47,11 @@ public class GetInteger {
                 return sc.nextInt();
             }
             catch (InputMismatchException e){
-                sc.next();
+                sc.next(); //must be called to dispose of the user;s invalid input stream if an InputMismatchException is thrown
+                /*
+                If you omit the statement that calls next, the while loop keeps reading it, throws an
+                exception, and displays an error message in an infinite loop
+                */
                 System.out.print("That's not an integer. Try again: ");
             }
         }
