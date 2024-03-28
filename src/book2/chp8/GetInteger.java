@@ -4,7 +4,7 @@
  */
 package book2.chp8;
 
-import java.util.Scanner;
+import java.util.*;
 
 /*
 TYPES OF EXCEPTIONS:
