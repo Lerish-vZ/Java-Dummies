@@ -4,6 +4,8 @@
  */
 package book2.chp8;
 
+import java.util.Scanner;
+
 /*
 TYPES OF EXCEPTIONS:
     IllegalArgumentException - You passed an incorrect argument to a method.
@@ -26,14 +28,13 @@ SYNTAX:
  *
  * @author lerishav
  */
-
-static 
-
 public class GetInteger {
 
     /**
      * @param args the command line arguments
      */
+    
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         // TODO code application logic here
     }
