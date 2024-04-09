@@ -15,7 +15,7 @@ public class CrazyWithZeros {
      */
     public static void main(String[] args) {
         try{
-            int answer = divivdeTheseNumbers(5, 0);
+            int answer = divideTheseNumbers(5, 0);
         }
         catch (Exception e) {
             System.out.println("Tried twice, still didn't work!");
