@@ -23,7 +23,7 @@ public class CrazyWithZeros {
     }
     
     public static int divideTheseNumbers(int a, int b)
-        throws Exception {
+        throws Exception { //method declares it throws Exception
         int c;
         
         try {
