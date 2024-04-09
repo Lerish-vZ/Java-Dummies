@@ -14,7 +14,22 @@ public class CrazyWithZeros {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        try{
+            int answer = divivdeTheseNumbers(5, 0);
+        }
+        catch (Exception e) {
+            System.out.println("Tried twice, still didn't work!");
+        }
     }
     
+    public static int divideTheseNumbers(int a, int b)
+        throws Exception {
+        int c;
+        
+        try {
+            c = a / b;
+            
+        }
+    
+    }
 }
