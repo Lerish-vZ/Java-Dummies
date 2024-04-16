@@ -14,7 +14,7 @@ public class CountTestApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       prinCount();
+       printCount();
        for(int i = 0; i < 10; i++){
            CountTest c1 = new CountTest();
            printCount();
