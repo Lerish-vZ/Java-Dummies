@@ -50,7 +50,7 @@ class Employee {
         return this.firstName;
     }
     
-    public void setFirstName(String firsName){
+    public void setFirstName(String firstName){
         this.firstName = firstName;
     }
     
