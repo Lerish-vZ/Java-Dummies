@@ -62,6 +62,13 @@ class Employee {
         this.salary = salary;
     }
     
+    public Object clone(){
+        Employee emp;
+        emp = new Employee(this.lastName, this.firstName);
+        emp.setSalary(this.salary);
+        return emp;
+    }
+    
     
 }
     
