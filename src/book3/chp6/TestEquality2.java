@@ -45,7 +45,9 @@ public class TestEquality2 {
             if (this == obj)
                 return true;
             
-            
+            //no objext equals null
+            if (this == null)
+                return false;
         }
     }
     
