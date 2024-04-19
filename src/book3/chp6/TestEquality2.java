@@ -23,7 +23,9 @@ public class TestEquality2 {
             System.out.println("These are different employees.");
     }
     
-    class Employee {
+}
+
+ class Employee {
         private String lastName; 
         private String firstName;
        
@@ -59,5 +61,3 @@ public class TestEquality2 {
             return this.lastName.equals(emp.getLastName()) && this.firstName.equals(emp.getFirstName());
         }
     }
-    
-}
