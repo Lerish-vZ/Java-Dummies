@@ -41,6 +41,10 @@ public class TestEquality2 {
         }
         
         public boolean equals(Object obj){
+            //an object must equal itself
+            if (this == obj)
+                return true;
+            
             
         }
     }
