@@ -56,7 +56,7 @@ public class TestEquality2 {
             //cast to an Employee, then compare the fields
             Employee emp = (Employee) obj;
             
-            
+            return this.lastName.equals(emp.getLastName()) && this.firstName.equals(emp.getFirstName());
         }
     }
     
