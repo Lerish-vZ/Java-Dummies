@@ -43,7 +43,7 @@ public class CloneTest2 {
 }
 
 
-class Employee {
+class Employee implements Cloneable{
     private String lastName; 
     private String firstName; 
     private Double salary;
