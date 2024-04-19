@@ -17,7 +17,13 @@ public class CloneTest2 {
        Employee emp1 = new Employee("Martinez", "Anthony");
        emp1.setSalary(40000.0);
        
+       emp1.adress = new Adress("1300 N. First Street", "Fresno", "CA", "93702");
+       System.out.println("*** after cloning ***\n");
+       
        Employee emp2 = (Employee)emp1.clone();
+       
+       printEmployee(emp1);
+       printEmployee(emp2);
        
        emp1.setLastName("Smith");
        
