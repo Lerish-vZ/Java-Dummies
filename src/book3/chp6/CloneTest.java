@@ -26,3 +26,15 @@ public class CloneTest {
     }
     
 }
+
+
+class Employee {
+    private String lastName; 
+    private String firstName; 
+    private Double salary;
+    
+    public Employee(String lastName, String firstName){
+        this.lastName = lastName;
+        this.firstName = firstName;
+    }
+}
