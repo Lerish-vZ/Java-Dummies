@@ -48,6 +48,12 @@ public class TestEquality2 {
             //no objext equals null
             if (this == null)
                 return false;
+            
+            //objects of different types are never equal
+            if (this.getClass() != obj.getClass())
+                return false;
+            
+            
         }
     }
     
