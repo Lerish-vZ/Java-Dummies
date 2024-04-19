@@ -53,6 +53,9 @@ public class TestEquality2 {
             if (this.getClass() != obj.getClass())
                 return false;
             
+            //cast to an Employee, then compare the fields
+            Employee emp = (Employee) obj;
+            
             
         }
     }
