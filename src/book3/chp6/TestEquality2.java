@@ -14,7 +14,12 @@ public class TestEquality2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Employee emp1 = new Employee("Martinez", "Anthony");
+        Employee emp2 = new Employee("Martinez", "Anthony");
+        
+        if(emp1.equals(emp2))
+            System.out.println("These employees are the same.");
+        
     }
     
 }
