@@ -32,7 +32,17 @@ public class TestEquality2 {
             this.firstName = firstName;
         }
         
-        public 
+        public String getLastName(){
+            return this.lastName;
+        }
+        
+        public String getFirstName(){
+            return this.firstName;
+        }
+        
+        public boolean equals(Object obj){
+            
+        }
     }
     
 }
