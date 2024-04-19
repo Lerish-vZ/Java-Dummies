@@ -14,7 +14,10 @@ public class CloneTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Employee emp1 = new Employee("Martinez", "Anthony");
+       emp1.setSalary(40000.0);
+       
+       
     }
     
 }
