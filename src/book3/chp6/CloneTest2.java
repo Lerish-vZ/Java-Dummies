@@ -28,8 +28,9 @@ public class CloneTest2 {
        emp2.setLastName("Smith");
        emp2.address = new Address("2503 N. 6th Street", "Fresno", "CA", "93722");
        
-        System.out.println(emp1);
-        System.out.println(emp2);
+       System.out.println("*** after changing emp2 ***\n");
+       printEmployee(emp1);
+       printEmployee(emp2);
     }
     
 }
