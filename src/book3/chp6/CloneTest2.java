@@ -33,6 +33,13 @@ public class CloneTest2 {
        printEmployee(emp2);
     }
     
+    private static void printEmployee(Employee e){
+        System.out.println(e.getFirstName() + " " + e.getLastName());
+        System.out.println(e.address.getAddress());
+        System.out.println("Salary: " + e.getSalary());
+        System.out.println();
+    }
+    
 }
 
 
