@@ -17,7 +17,7 @@ public class CloneTest2 {
        Employee emp1 = new Employee("Martinez", "Anthony");
        emp1.setSalary(40000.0);
        
-       emp1.adress = new Adress("1300 N. First Street", "Fresno", "CA", "93702");
+       emp1.address = new Address("1300 N. First Street", "Fresno", "CA", "93702");
        System.out.println("*** after cloning ***\n");
        
        Employee emp2 = (Employee)emp1.clone();
@@ -47,10 +47,12 @@ class Employee implements Cloneable{
     private String lastName; 
     private String firstName; 
     private Double salary;
+    public Address address;
     
     public Employee(String lastName, String firstName){
         this.lastName = lastName;
         this.firstName = firstName;
+        this.address = new Address();
     }
     
     public String getLastName(){
