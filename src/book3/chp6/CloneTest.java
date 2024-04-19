@@ -46,6 +46,14 @@ class Employee {
         this.lastName = lastName;
     }
     
+    public String getFirstName(){
+        return this.firstName;
+    }
+    
+    public void setFirstName(String firsName){
+        this.firstName = firstName;
+    }
+    
     
 }
     
