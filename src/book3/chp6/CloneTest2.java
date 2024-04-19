@@ -118,14 +118,10 @@ class Address implements Cloneable {
         this.zipCode = zipCode;
     }
 
-    public Object clone() 
-        →133
-{
-try {
+    public Object clone() {
+    try {
             return super.clone();
-         →137
-}
-catch (CloneNotSupportedException e) {
+    } catch (CloneNotSupportedException e) {
             return null; // will never happen
         }
     }
