@@ -54,6 +54,14 @@ class Employee {
         this.firstName = firstName;
     }
     
+    public Double getSalary(){
+        return this.salary;
+    }
+    
+    public void setSalary(Double salary){
+        this.salary = salary;
+    }
+    
     
 }
     
