@@ -37,4 +37,10 @@ class Employee {
         this.lastName = lastName;
         this.firstName = firstName;
     }
+    
+    public String getLastName(){
+        return this.lastName;
+    }
+    
+    
 }
