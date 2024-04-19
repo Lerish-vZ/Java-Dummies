@@ -69,6 +69,9 @@ class Employee {
         return emp;
     }
     
-    
+    public String toString() {
+        return this.getClass().getName() + "[" + this.firstName + " " + this.lastName + ", " + this.salary + "]";
+                
+    }
 }
     
