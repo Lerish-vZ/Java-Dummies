@@ -18,7 +18,8 @@ public class TickTock {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ///
+        // create a timer that calls the Ticker class
+        //at one second intervals
     }
     
 }
