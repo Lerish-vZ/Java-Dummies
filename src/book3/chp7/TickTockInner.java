@@ -39,7 +39,7 @@ public class TickTockInner {
         
         //display a message box to prevent the program from ending immediately
         JOptionPane.showMessageDialog(null, "Click OK to exit program.");
-        System.exit(0); //cllas the exit method of the System class, which immediately shuts down the Java Virtual Machine. It's not required but the timer will continue a few more times after you have pressed ok if you do not use this.
+        System.exit(0); //calls the exit method of the System class, which immediately shuts down the Java Virtual Machine. It's not required but the timer will continue a few more times after you have pressed ok if you do not use this.
     }
     
     class Ticker implements ActionListener {
