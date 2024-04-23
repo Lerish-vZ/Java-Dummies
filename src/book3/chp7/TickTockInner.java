@@ -35,4 +35,17 @@ public class TickTockInner {
         JOptionPane.showMessageDialog(null, "Click OK to exit program.");
         System.exit(0);
     }
+    
+    class Ticker implements ActionListener {
+        private boolean tick = true; 
+        
+        public void actionPerformed (ActionEvent event){
+            if (tick){
+                System.out.println(tickMessage);
+            } else {
+                System.out.println(tockMessage);
+            }
+            tick = !tick;
+        }
+    }
 }
