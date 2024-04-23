@@ -18,7 +18,7 @@ public class TickTockInner {
      * @param args the command line arguments
      */
     
-    private String tickMessage = "Tick...";
+    private String tickMessage = "Tick..."; //these messages are defined in the outer class (inner classes can access them)
     private String tockMessage = "Tock...";
     
     public static void main(String[] args) {
