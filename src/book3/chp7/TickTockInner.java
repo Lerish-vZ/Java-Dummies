@@ -8,6 +8,10 @@ package book3.chp7;
  *
  * @author lerishav
  */
+
+import java.awt.event.*;
+import javax.swing.*;
+
 public class TickTockInner {
 
     /**
