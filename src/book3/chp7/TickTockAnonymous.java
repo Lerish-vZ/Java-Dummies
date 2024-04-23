@@ -24,10 +24,10 @@ public class TickTockAnonymous {
     private void go() {
         //create a timer that calls the Ticker class at one second intervals
         Timer t = new Timer(1000,
-                new ActionListener() {
+                new ActionListener() { //The second parameter of the TimerClass constructor is an object that implements the ActionListener interface. This object is created here via an anonymous class. ActionListener is specified as the type for the class.
             private boolean tick = true;
 
-            public void actionPerformed(ActionEvent event) {
+            public void actionPerformed(ActionEvent event) { //This method can freely access fields defined in the outer class.
                 if (tick) {
                     System.out.println(tickMessage);
                 } else {
