@@ -14,12 +14,12 @@ package book3.chp7;
 
 public class TickTockStatic {
 
-    /**
-     * @param args the command line arguments
-     */
+    private String tickMessage = "Tick..."; //these messages are defined in the outer class (inner classes can access them)
+    private String tockMessage = "Tock...";
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        TickTockInner t = new TickTockInner();
+        t.go();
     }
     
 }
