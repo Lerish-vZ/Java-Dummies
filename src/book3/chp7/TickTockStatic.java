@@ -18,8 +18,8 @@ public class TickTockStatic {
     private static String tockMessage = "Tock...";
     
     public static void main(String[] args) {
-        TickTockInner t = new TickTockInner();
-        t.go();
+        TickTockStatic t = new TickTockStatic();
+       t.go();
     }
     
     private void go(){
