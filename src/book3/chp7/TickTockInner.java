@@ -17,8 +17,18 @@ public class TickTockInner {
     /**
      * @param args the command line arguments
      */
+    
+    private String tickMessage = "Tick...";
+    private String tockMessage = "Tock...";
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        TickTockInner t = new TickTockInner();
+        t.go();
     }
     
+    private void go(){
+        //create a timer that calls the Ticker class at one second intervals
+        Timer t = new Timer(1000, new Ticker());
+        t.start();
+    }
 }
