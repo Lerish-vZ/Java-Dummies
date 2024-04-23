@@ -25,6 +25,12 @@ public class TickTockInner {
         TickTockInner t = new TickTockInner();
         t.go();
     }
+    /*
+    Because an inner class can be used only by an instantiated object, you
+    can’t use it directly from the static main method. As a result, the main
+    method in this program simply creates an instance of the application
+    class (TickTockInner).
+    */
     
     private void go(){
         //create a timer that calls the Ticker class at one second intervals
