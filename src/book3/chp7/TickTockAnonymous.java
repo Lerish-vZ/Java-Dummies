@@ -25,10 +25,6 @@ public class TickTockAnonymous {
      private void go(){
         //create a timer that calls the Ticker class at one second intervals
         Timer t = new Timer(1000, new Ticker());
-        t.start();
         
-        //display a message box to prevent the program from ending immediately
-        JOptionPane.showMessageDialog(null, "Click OK to exit program.");
-        System.exit(0); //cllas the exit method of the System class, which immediately shuts down the Java Virtual Machine. It's not required but the timer will continue a few more times after you have pressed ok if you do not use this.
     }
 }
