@@ -8,11 +8,16 @@ package book3.chp7;
  *
  * @author lerishav
  */
+
+    import java.awt.event.*;
+    import javax.swing.*;
+
 public class TickTockStatic {
 
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
         // TODO code application logic here
     }
