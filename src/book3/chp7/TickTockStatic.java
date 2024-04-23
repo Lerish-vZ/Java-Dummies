@@ -14,8 +14,8 @@ package book3.chp7;
 
 public class TickTockStatic {
 
-    private String tickMessage = "Tick..."; 
-    private String tockMessage = "Tock...";
+    private static String tickMessage = "Tick..."; 
+    private static String tockMessage = "Tock...";
     
     public static void main(String[] args) {
         TickTockInner t = new TickTockInner();
@@ -44,3 +44,4 @@ public class TickTockStatic {
             tick = !tick;
         }
     }
+}
