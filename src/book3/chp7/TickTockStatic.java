@@ -14,7 +14,7 @@ package book3.chp7;
 
 public class TickTockStatic {
 
-    private String tickMessage = "Tick..."; //these messages are defined in the outer class (inner classes can access them)
+    private String tickMessage = "Tick..."; 
     private String tockMessage = "Tock...";
     
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class TickTockStatic {
         
         //display a message box to prevent the program from ending immediately
         JOptionPane.showMessageDialog(null, "Click OK to exit program.");
-        System.exit(0); //cllas the exit method of the System class, which immediately shuts down the Java Virtual Machine. It's not required but the timer will continue a few more times after you have pressed ok if you do not use this.
+        System.exit(0); 
     }
     
     static class Ticker implements ActionListener {
@@ -37,7 +37,7 @@ public class TickTockStatic {
         
         public void actionPerformed (ActionEvent event){
             if (tick){
-                System.out.println(tickMessage); //accesss a field of the outer class.
+                System.out.println(tickMessage); 
             } else {
                 System.out.println(tockMessage);
             }
