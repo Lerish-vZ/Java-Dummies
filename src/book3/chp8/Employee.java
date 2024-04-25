@@ -67,8 +67,21 @@ public class Employee {
         this.firstName = firstName;
     }
 
-    public static void main(String[] args) {
-        // TODO code application logic here
+    /**
+     * Gets the employee's salary.
+     *
+     * @return A double representing the employee's salary.
+     */
+    public double getSalary() {
+        return this.salary;
     }
 
+    /**
+     * Sets the employee's salary.
+     *
+     * @param salary A double containing the employee's salary.
+     */
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 }
