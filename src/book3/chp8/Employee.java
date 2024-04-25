@@ -14,9 +14,12 @@ package book3.chp8; //in book package is: com.lowewriter.payroll;
 public class Employee {
     
     private String lastName;
-    /**
-     * @param args the command line arguments
-     */
+    private String firstName; 
+    private Double salary;
+   
+    /** Represents the employee's address
+    */
+    
     public static void main(String[] args) {
         // TODO code application logic here
     }
