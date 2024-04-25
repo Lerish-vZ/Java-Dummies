@@ -49,7 +49,24 @@ public class Employee {
      *
      * @param lastName A String containing the employee's last name.
      */
-    
+    /**
+     * Gets the employee's first name.
+     *
+     * @return A string representing the employee's first name.
+     */
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    /**
+     * Sets the employee's first name.
+     *
+     * @param firstName A String containing the employee's first name.
+     */
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
     public static void main(String[] args) {
         // TODO code application logic here
     }
