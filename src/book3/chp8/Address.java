@@ -10,11 +10,17 @@ package book3.chp8;
  */
 public class Address {
 
+    public String street;
+    public String city;
+    public String state;
+    public String zipCode;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+
 }
+
