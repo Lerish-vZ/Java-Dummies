@@ -31,6 +31,7 @@ public class CountVowels_example {
                     (c == 'U') || (c == 'u') ) 
                 vowelCount++;
             }
+        System.out.println("That string contains: " + vowelCount + " vowels.");
         }
     }
     
