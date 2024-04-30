@@ -17,7 +17,20 @@ public class CountVowels_example {
     static Scanner sc = new Scanner (System.in);
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.print("Enter a String: ");
+        String s = sc.nextLine();
+        
+        int vowelCount = 0;
+        
+        for(int i = 0; i < s.length(); i++){
+            char c = s.charAt(i);
+            if( (c == 'A') || (c == 'a') ||
+                    (c == 'E') || (c == 'e') ||
+                    (c == 'I') || (c == 'i') ||
+                    (c == 'O') || (c == 'o') ||
+                    (c == 'U') || (c == 'u') ) 
+                vowelCount++;
+            }
+        }
     }
     
-}
