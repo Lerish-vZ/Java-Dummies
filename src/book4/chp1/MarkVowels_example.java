@@ -16,7 +16,12 @@ public class MarkVowels_example {
      */
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.print("Enter a String: ");
+        String s = sc.nextLine();
+        String originalString = s; 
+        
+        int vowelCount = 0;
+        
     }
     
 }
