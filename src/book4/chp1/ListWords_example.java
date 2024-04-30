@@ -8,13 +8,16 @@ package book4.chp1;
  *
  * @author lerishav
  */
+import java.util.Scanner;
 public class ListWords_example {
 
     /**
      * @param args the command line arguments
      */
+    static Scanner sc = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
