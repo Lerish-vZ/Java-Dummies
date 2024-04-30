@@ -37,6 +37,10 @@ public class MarkVowels_example {
                 s = front + "*" + back;
             }
         }
+        
+        System.out.println();
+        System.out.println(originalString);
+        System.out.println(s);
 
     }
 }
