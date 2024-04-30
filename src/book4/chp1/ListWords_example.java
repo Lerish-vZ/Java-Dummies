@@ -9,6 +9,7 @@ package book4.chp1;
  * @author lerishav
  */
 import java.util.Scanner;
+import javax.swing.SpringLayout;
 public class ListWords_example {
 
     /**
@@ -17,7 +18,11 @@ public class ListWords_example {
     static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
-        
+        System.out.print("Enter a string: ");
+        String s = sc.nextLine();
+        String[] word = s.split("\\s+");
+        for (String w : word)
+            System.out.println(w);
     }
     
 }
