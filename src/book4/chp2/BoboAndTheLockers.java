@@ -15,12 +15,13 @@ public class BoboAndTheLockers {
      */
     public static void main(String[] args) {
        // true = open; false = closed;
-       boolean[] lockers = new boolean[1001];
+       boolean[] lockers = new boolean[1001]; //there is an extra element created that will be ignored. Element 0.
        
        //close all the lockers
        for (int i = 1; i <= 1000; i++)
            lockers[i] = false;
-       for (int skip = 1; skip <= 1000; skip++){
+       
+       for (int skip = 1; skip <= 1000; skip++){ //
        System.out.println("Bobo is changing every " + skip + " lockers.");
        
        for (int locker = skip; locker < 1000; locker += skip)
