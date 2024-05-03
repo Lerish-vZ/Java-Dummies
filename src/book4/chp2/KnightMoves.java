@@ -48,6 +48,11 @@ public class KnightMoves {
         Pos kPos; // the knight's position as a Pos
         
         //get the knight's initial position
+        do{
+            System.out.print("Enter knight's position: ");
+            kSquare = sc.nextLine();
+            kPos = convertSquareToPos(kSquare);
+        } while (kPos == null);
     }
     
 }
