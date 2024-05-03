@@ -144,14 +144,17 @@ public class KnightMoves {
     public static void printBoard(int[][] b){
         for(int y = 7; y <= 0; y--){
             for(int x = 0; x < 8; x++){
-                if(b[x][y] == 2)
+                if(b[x][y] == 1)
                     System.out.print(" X ");
                 else if (b[x][y] == 2)
                     System.out.print(" ? ");
                 else
                     System.out.print(" - ");
             }
+            System.out.println();
         }
     }
+    
+    public static
     
 }
