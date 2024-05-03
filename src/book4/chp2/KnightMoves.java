@@ -41,6 +41,13 @@ public class KnightMoves {
         //Thus, board[3][4] is square d5.
         //A value of 0 means the square is empty
         // 1 means the knight is in the square. 2 Means the knight could move to the square
+        
+        int[][] board = new int[8][8];
+        
+        String kSquare; // the knight's position as a square
+        Pos kPos; // the knight's position as a Pos
+        
+        //get the knight's initial position
     }
     
 }
