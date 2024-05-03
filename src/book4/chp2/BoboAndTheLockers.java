@@ -14,7 +14,9 @@ public class BoboAndTheLockers {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       // true = open; false = closed;
+       boolean[] lockers = new boolean[1001];
+       
     }
     
 }
