@@ -82,7 +82,15 @@ public class KnightMoves {
         int y = -1;
         char ranks, file;
         
-        
+        file = square.charAt(0);
+        if(file == 'a') x = 0;
+        if(file == 'b') x = 1;
+        if(file == 'c') x = 2;
+        if(file == 'd') x = 3;
+        if(file == 'e') x = 4;
+        if(file == 'f') x = 5;
+        if(file == 'g') x = 6;
+        if(file == 'h') x = 7;
     }
     
 }
