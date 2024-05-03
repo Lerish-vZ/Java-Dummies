@@ -53,6 +53,14 @@ public class KnightMoves {
             kSquare = sc.nextLine();
             kPos = convertSquareToPos(kSquare);
         } while (kPos == null);
+        
+        board[kPos.x][kPos.y] = 1;
+        
+        System.out.println("\nThe knight is at square " + concertPosToSquare(kPos));
+        
+        System.out.println("From here the knight can move to: ");
+        
+        
     }
     
 }
