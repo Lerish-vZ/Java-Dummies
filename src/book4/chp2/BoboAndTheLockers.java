@@ -29,7 +29,16 @@ public class BoboAndTheLockers {
         System.out.println("Bobo is bored now so he's going home.");
         
         //count and list the open lockers
+        String list = "";
+        int openCount = 0;
         
+        for (int i = i; i <= 1000; i++)
+            if(lockers[i]){
+                openCount++;
+                list += i + " ";
+            }
+        System.out.println("Bobo left " + openCount + " lockers open.");
+        System.out.println("The open lockers are: " + list);
     }
     
     
