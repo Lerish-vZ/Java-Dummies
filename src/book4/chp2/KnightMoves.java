@@ -124,4 +124,21 @@ public class KnightMoves {
         return file + (p.y + 1);
     }
     
+    //this method calculates a new POs given a starting Pos, an x move, and a y move
+    // it returns null if the resulting move would be off the board.
+    public static Pos calculateNewPos(Pos p, int x, int y){
+        //rule out legal moves
+        if (p.x + x < 0)
+            return null;
+        if (p.x + x > 7)
+            return null;
+        if (p.y + y < 0)
+            return null;
+        if (p.y + y > 7)
+            return null;
+        
+        //return new position 
+        return new Pos(p.x + x, p.y + y);
+    }
+    
 }
