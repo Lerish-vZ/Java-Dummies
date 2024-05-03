@@ -56,7 +56,7 @@ public class KnightMoves {
         
         board[kPos.x][kPos.y] = 1;
         
-        System.out.println("\nThe knight is at square " + concertPosToSquare(kPos));
+        System.out.println("\nThe knight is at square " + convertSquareToPos(kPos));
         
         System.out.println("From here the knight can move to: ");
         
@@ -69,13 +69,20 @@ public class KnightMoves {
             Pos p = calculateNewPos(kPos, x, y);
             
             if(p != null){
-                System.out.println(convertPosToSquare(p));
+                System.out.println(convertSquareToPos(p));
                 board[p.x][p.y] = 2;
             }
         }
         printBoard(board);
     }
     
-    
+    //this method converts squares such as a1 or d5 to x, y coordinates such as [0][0] or [3][4]
+    public static Pos convertSquareToPos(String square){
+        int x = -1; 
+        int y = -1;
+        char ranks, file;
+        
+        
+    }
     
 }
