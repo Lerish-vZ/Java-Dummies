@@ -108,4 +108,20 @@ public class KnightMoves {
             return new Pos(x, y);
     }
     
+    //this method converts x, y coordinates suvh as [0][0] or [3][4] to squares such as a1 or d5
+    public static String ConvertPosToSquare(Pos p){
+        String file = "";
+        
+        if (p.x == 0) file = "a";
+        if (p.x == 1) file = "b";
+            if (p.x == 2) file = "c";
+        if (p.x == 3) file = "d";
+        if (p.x == 4) file = "e";
+        if (p.x == 5) file = "f";
+        if (p.x == 6) file = "g";
+        if (p.x == 7) file = "h";
+        
+        return file + (p.y + 1);
+    }
+    
 }
