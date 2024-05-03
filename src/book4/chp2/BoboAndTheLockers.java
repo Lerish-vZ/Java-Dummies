@@ -26,6 +26,11 @@ public class BoboAndTheLockers {
        for (int locker = skip; locker < 1000; locker += skip)
            lockers[locker] = !lockers[locker];
        }
+        System.out.println("Bobo is bored now so he's going home.");
+        
+        //count and list the open lockers
+        
     }
+    
     
 }
