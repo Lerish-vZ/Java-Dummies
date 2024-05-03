@@ -28,7 +28,13 @@ public class KnightMoves {
                                 {-2, -1}    };
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Welcome to the Knight Move calculator.\n");
+        
+        do {
+            showKnightMoves();
+        } while (getYorN("Do it again?"));
     }
+    
+    
     
 }
