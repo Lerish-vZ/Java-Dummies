@@ -21,7 +21,7 @@ public class BoboAndTheLockers {
        for (int i = 1; i <= 1000; i++)
            lockers[i] = false;
        
-       for (int skip = 1; skip <= 1000; skip++){ //
+       for (int skip = 1; skip <= 1000; skip++){ //Every iteration represents one complete trip through the hallways.
        System.out.println("Bobo is changing every " + skip + " lockers.");
        
        for (int locker = skip; locker < 1000; locker += skip)
