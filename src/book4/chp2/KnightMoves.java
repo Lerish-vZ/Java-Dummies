@@ -35,6 +35,12 @@ public class KnightMoves {
         } while (getYorN("Do it again?"));
     }
     
-    
+    public static void showKnightMoves() {
+        //The first dimension is the file (a, b, c, etc.)
+        //The second dimension is the rank (1, 2, 3, etc.)
+        //Thus, board[3][4] is square d5.
+        //A value of 0 means the square is empty
+        // 1 means the knight is in the square. 2 Means the knight could move to the square
+    }
     
 }
