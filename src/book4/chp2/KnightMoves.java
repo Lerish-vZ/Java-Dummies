@@ -101,6 +101,11 @@ public class KnightMoves {
         if(rank == '6') y = 5;
         if(rank == '7') y = 6;
         if(rank == '8') y = 7;
+        
+        if(x == -1 || y == -1) {
+            return null;
+        } else
+            return new Pos(x, y);
     }
     
 }
