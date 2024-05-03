@@ -32,7 +32,7 @@ public class BoboAndTheLockers {
         String list = "";
         int openCount = 0;
         
-        for (int i = i; i <= 1000; i++)
+        for (int i = 1; i <= 1000; i++)
             if(lockers[i]){
                 openCount++;
                 list += i + " ";
