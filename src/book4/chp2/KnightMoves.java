@@ -60,7 +60,15 @@ public class KnightMoves {
         
         System.out.println("From here the knight can move to: ");
         
-        
+        for (int move = 0; move < moves.length; move++){
+            int x, y;
+            
+            x = moves[move][0]; // the x for this move
+            y = moves[move][1]; // the y for this move
+            
+            Pos p = calculateNewPos(kPos, x, y);
+            
+        }
     }
     
 }
