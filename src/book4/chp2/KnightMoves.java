@@ -80,7 +80,7 @@ public class KnightMoves {
     public static Pos convertSquareToPos(String square){
         int x = -1; 
         int y = -1;
-        char ranks, file;
+        char rank, file;
         
         file = square.charAt(0);
         if(file == 'a') x = 0;
@@ -91,6 +91,16 @@ public class KnightMoves {
         if(file == 'f') x = 5;
         if(file == 'g') x = 6;
         if(file == 'h') x = 7;
+        
+        rank = square.charAt(1);
+        if(rank == '1') y = 0;
+        if(rank == '2') y = 1;
+        if(rank == '3') y = 2;
+        if(rank == '4') y = 3;
+        if(rank == '5') y = 4;
+        if(rank == '6') y = 5;
+        if(rank == '7') y = 6;
+        if(rank == '8') y = 7;
     }
     
 }
