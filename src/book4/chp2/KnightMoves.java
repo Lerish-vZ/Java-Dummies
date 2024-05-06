@@ -69,7 +69,7 @@ public class KnightMoves {
             Pos p = calculateNewPos(kPos, x, y);
 
             if (p != null) {
-                System.out.println(convertSquareToPos(p));
+                System.out.println(convertPosToSquare(p));
                 board[p.x][p.y] = 2;
             }
         }
