@@ -17,7 +17,7 @@ public class MASH_example {
      */
     public static void main(String[] args) {
         LinkedList<String> officers = new LinkedList<String>();
-// add the original officers
+    // add the original officers
         officers.add("Blake");
         officers.add("Burns");
         officers.add("Tuttle");
@@ -25,7 +25,7 @@ public class MASH_example {
         officers.add("Pierce");
         officers.add("McIntyre");
         System.out.println(officers);
-// replace Tuttle with Murdock
+    // replace Tuttle with Murdock
         officers.set(2, "Murdock");
         System.out.println("\nTuttle is replaced:");
         System.out.println(officers);
