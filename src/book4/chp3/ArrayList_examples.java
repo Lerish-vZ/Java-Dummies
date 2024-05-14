@@ -16,7 +16,11 @@ public class ArrayList_examples {
      */
     public static void main(String[] args) {
         ArrayList<String> nums = new ArrayList<String>();
-        nums.add
+        nums.add("One");
+        nums.add("Two");
+        nums.add("Three");
+        nums.add("Four");
+        nums.add(2, "Two and a half");
     }
     
 }
