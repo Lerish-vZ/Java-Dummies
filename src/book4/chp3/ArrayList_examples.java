@@ -63,6 +63,9 @@ public class ArrayList_examples {
         nums.set(1, "Dos");
         nums.set(2, "Tres");
         System.out.println(nums);
+        
+        
+        
     }
 
 }
