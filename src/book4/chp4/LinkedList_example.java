@@ -23,6 +23,9 @@ public class LinkedList_example {
         officers.add("Houlihan");
         officers.add("Pierce");
         officers.add("McIntyre");
+        
+        //officers.add(2, "Tuttle");
+        
         for (String s : officers) {
             System.out.println(s);
         }
