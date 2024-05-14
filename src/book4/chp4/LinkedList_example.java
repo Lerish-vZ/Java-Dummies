@@ -4,6 +4,8 @@
  */
 package book4.chp4;
 
+import java.util.*;
+
 /**
  *
  * @author lerishav
@@ -14,7 +16,16 @@ public class LinkedList_example {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        LinkedList<String> officers = new LinkedList<String>();
+
+        officers.add("Blake");
+        officers.add("Burns");
+        officers.add("Houlihan");
+        officers.add("Pierce");
+        officers.add("McIntyre");
+        for (String s : officers) {
+            System.out.println(s);
+        }
     }
-    
+
 }
