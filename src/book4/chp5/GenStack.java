@@ -28,4 +28,9 @@ public class GenStack<E> {
         return list.peek();
     }
     
+    public boolean hasItems(){
+        return !list.isEmpty();
+    }
+    
+    
 }
