@@ -8,7 +8,7 @@ import java.util.*;
  *
  * @author lerishav
  */
-public class GenStack {
+public class GenStack<E> {
 
     /**
      * @param args the command line arguments
@@ -16,8 +16,9 @@ public class GenStack {
     
     private LinkedList<E> list = new LinkedList<E>();
     
-    public static void main(String[] args) {
-       
+    public void push(E item){
+        list.addFirst(item);
     }
+
     
 }
