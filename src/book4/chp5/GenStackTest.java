@@ -17,6 +17,11 @@ public class GenStackTest {
         GenStack<String> gs = new GenStack<String>();
         
         System.out.println("Pushing four items onto the stack.");
+        
+        gs.push("One");
+        gs.push("One");
+        gs.push("One");
+        gs.push("One");
     }
     
 }
