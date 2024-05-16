@@ -20,5 +20,12 @@ public class GenStack<E> {
         list.addFirst(item);
     }
 
+    public E pop(){
+        return list.poll();
+    }
+    
+    public E peek(){
+        return list.peek();
+    }
     
 }
