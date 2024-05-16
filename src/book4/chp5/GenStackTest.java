@@ -23,6 +23,8 @@ public class GenStackTest {
         gs.push("Three");
         gs.push("Four");
         
+        System.out.println("There are " + gs.size() + " items in the stack.\n");
+        
         
     }
     
