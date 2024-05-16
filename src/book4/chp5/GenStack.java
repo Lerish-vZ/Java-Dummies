@@ -8,7 +8,7 @@ import java.util.*;
  *
  * @author lerishav
  */
-public class GenStack<E> {
+public class GenStack<E> { //<E> specifies the formal type parameter. Users of this class can specify the type for the stack's elements.
 
     /**
      * @param args the command line arguments
