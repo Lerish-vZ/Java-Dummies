@@ -32,5 +32,7 @@ public class GenStack<E> {
         return !list.isEmpty();
     }
     
-    
+    public int size() {
+        return list.size();
+    }
 }
