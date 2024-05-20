@@ -30,10 +30,17 @@ public class GenQueue<E> {
         return list.size();
     }
 
-    public void addItems(GenQueue<? extends E> q) {
+    public void addItems(GenQueue<? extends E> q) { 
         while (q.hasItems()) {
             list.addLast(q.dequeue());
         }
     }
+    /*
+    accepts a parameter that must be another
+    GenQueue object whose element type is either the same type as this
+    GenQueue object’s elements or a subtype of this GenQueue object’s
+    element type. This method uses a while loop to remove all the items
+    from the q parameter and add them to this queue.
+    */
 
 }
