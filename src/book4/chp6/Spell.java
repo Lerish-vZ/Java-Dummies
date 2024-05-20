@@ -22,6 +22,8 @@ public class Spell {
         description = spellDescription;
     }
     
-    
+    public String toString(){
+        return name;
+    }
     
 }
