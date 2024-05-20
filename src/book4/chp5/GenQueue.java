@@ -16,19 +16,19 @@ public class GenQueue<E> {
 
      
 public void enqueue(E item) 
-        →7
+        
 {
 list.addLast(item);
     }
 
     public E dequeue() 
-        →12
+        
 {
 return list.poll();
     }
 
     public boolean hasItems() 
-        →a17
+        
 {
 return !list.isEmpty();
     }
