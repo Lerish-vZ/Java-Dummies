@@ -10,11 +10,13 @@ package book4.chp6;
  */
 public class Spell {
     
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public String name; 
+    public SpellType type; 
+    public String description;
+    
+    public enum SpellType{SPELL, CHARM, CURSE}
+    
+    
     }
     
 }
