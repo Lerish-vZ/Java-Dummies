@@ -19,7 +19,7 @@ public class GenQueue<E> {
     }
 
     public E dequeue() {
-        return list.poll();
+        return list.poll(); // returns first item in list
     }
 
     public boolean hasItems() {
