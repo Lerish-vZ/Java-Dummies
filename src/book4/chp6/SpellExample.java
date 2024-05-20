@@ -9,7 +9,7 @@ import java.util.*;
  *
  * @author lerishav
  */
-public class Spell {
+public class SpellExample {
     
     public String name; 
     public SpellType type; 
@@ -17,7 +17,7 @@ public class Spell {
     
     public enum SpellType{SPELL, CHARM, CURSE}
     
-    public Spell(String spellName, SpellType spellType, String spellDescription){
+    public SpellExample(String spellName, SpellType spellType, String spellDescription){
         name = spellName; 
         type = spellType;
         description = spellDescription;
@@ -26,7 +26,5 @@ public class Spell {
     public String toString(){
         return name;
     }
-    
-    ArrayList<Spell> spells = new ArrayList<>();
     
 }
