@@ -27,4 +27,7 @@ public class SpellExample {
         return name;
     }
     
+    ArrayList<Spell> spells = new ArrayList<>();
+    
+    spells.add(new Spell("Aparecium", Spell.SpellType.Spell, "Makes invisible ink appear."));
 }
