@@ -34,13 +34,13 @@ return !list.isEmpty();
     }
 
     public int size() 
-        →a22
+        
 {
 return list.size();
     }
 
     public void addItems(GenQueue<? extends E> q) 
-        →a27
+       
 {
 while (q.hasItems()) {
             list.addLast(q.dequeue());
