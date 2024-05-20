@@ -15,7 +15,7 @@ public class GenQueue<E> {
     private LinkedList<E> list = new LinkedList<E>();
 
     public void enqueue(E item) {
-        list.addLast(item);
+        list.addLast(item); //adds items to the end of list
     }
 
     public E dequeue() {
