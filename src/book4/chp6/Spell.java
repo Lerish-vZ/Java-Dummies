@@ -4,6 +4,7 @@
  */
 package book4.chp6;
 
+import java.util.*;
 /**
  *
  * @author lerishav
@@ -25,5 +26,7 @@ public class Spell {
     public String toString(){
         return name;
     }
+    
+    ArrayList<Spell> spells = new ArrayList<>();
     
 }
