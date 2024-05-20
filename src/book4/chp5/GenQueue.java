@@ -4,17 +4,47 @@
  */
 package book4.chp5;
 
+import java.util.*;
+
 /**
  *
  * @author lerishav
  */
-public class GenQueue<E>{
+public class GenQueue<E> {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private LinkedList<E> list = new LinkedList<E>();
+
+     
+public void enqueue(E item) 
+        →7
+{
+list.addLast(item);
     }
-    
+
+    public E dequeue() 
+        →12
+{
+return list.poll();
+    }
+
+    public boolean hasItems() 
+        →a17
+{
+return !list.isEmpty();
+    }
+
+    public int size() 
+        →a22
+{
+return list.size();
+    }
+
+    public void addItems(GenQueue<? extends E> q) 
+        →a27
+{
+while (q.hasItems()) {
+            list.addLast(q.dequeue());
+        }
+    }
+
 }
